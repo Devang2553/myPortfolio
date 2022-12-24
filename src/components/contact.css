@@ -1,0 +1,31 @@
+.contact-page{
+    @apply h-screen w-full bg-gradient-to-b from-black  to-gray-800 text-white p-4;
+
+    &> .contact{
+        @apply flex flex-col  p-4 justify-center max-w-screen-lg mx-auto h-full;
+        &>.contact-heading{
+            @apply pb-8;
+            & > .contact-title{
+                @apply text-4xl font-bold inline border-b-4 border-gray-500;
+            }
+        }
+        &> .form{
+            @apply flex justify-center items-center;
+            & >form{
+                @apply flex flex-col w-full md:w-1/2;
+                & > .name{
+                    @apply p-2 bg-transparent border-2 rounded-md text-white focus:outline-none;
+                }
+                & > .email{
+                    @apply my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none;
+                }
+                & > .msg{
+                    @apply p-2 bg-transparent border-2 rounded-md text-white focus:outline-none;
+                }
+                & > .talk{
+                    @apply text-white w-fit  px-6 py-3 my-8 mx-auto flex items-center  rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-110 duration-300 ;
+                }
+            }
+        }
+    }
+}
