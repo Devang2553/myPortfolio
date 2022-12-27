@@ -10,10 +10,10 @@ const Contact = () => {
                 <p className='py-6'> Contact me</p>
             </div>
             <div className='form'>
-                <form action="">
-                    <input type="text" name="name" className='name' placeholder='Enter your name'  id="" />
+                <form action="" >
+                    <input type="text" name="name"  className='name'  placeholder='Enter your name'  id="" />
                     <input type="email" name="name" className='email' placeholder='Enter your email' id="" />
-                    <textarea name="message" rows="10" className='msg' ></textarea>
+                    <textarea name="message" rows="10" className='type-box'  ></textarea>
                     <button className='talk'>Let's talk</button>
                     </form>
             </div>

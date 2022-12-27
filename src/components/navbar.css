@@ -6,14 +6,14 @@
     & > .nav-list{
         @apply  hidden md:flex; 
         & > li{ 
-            @apply px-4 cursor-pointer  capitalize font-medium text-gray-500 hover:scale-105 duration-200;
+            @apply px-4 cursor-pointer  capitalize font-medium text-slate-300 hover:scale-105 duration-200;
         }
     }
     & > .nav-icon {
         @apply cursor-pointer pr-4 z-10 text-gray-500 md:hidden;
     }
     & >.mob-nav-list{
-        @apply flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500;
+        @apply flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-slate-300;
         & > li {
             @apply px-4 cursor-pointer  capitalize py-6 text-4xl;
         }

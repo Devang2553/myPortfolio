@@ -37,7 +37,9 @@ const Navbar = () => {
           <li key={id}>{link}</li>
         ))}
       </ul>
-      <div  className="nav-icon" onClick={()=> setNav(!nav)}>
+      <div  className="nav-icon" 
+      onClick={()=> setNav(!nav)}
+      >
         {nav ? <FaTimes size={30} /> :<FaBars size={30}/> }
       </div>
       {nav && (

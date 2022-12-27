@@ -6,7 +6,6 @@ import   js  from '../assets/js.svg';
 import   Node  from '../assets/Node.svg';
 import   react  from '../assets/react.svg';
 import   Tailwind  from '../assets/Tailwind.svg';
-// import   github  from '../assets/github-mark.svg';
 
 
 const Experience = () => {
@@ -47,12 +46,6 @@ const Experience = () => {
         title: 'Tailwind',
         style: 'shadow-sky-400'
     },
-    // {
-    //     id:7,
-    //     src:github-mark,
-    //     title: 'github',
-    //     style: 'shadow-sky-400'
-    // },
     ]
   return (
     <div name="experience" className='experience-card'>
@@ -65,7 +58,7 @@ const Experience = () => {
                 {
                     techs.map(({id,src,title,style})=>(
                         <div key={id} className={"card"}>
-                    <img src={src} alt="" className='work' />
+                    <img src={src} alt="work" className='work'  />
 
                     <p className='mt-4'>{title}</p>
                 </div>

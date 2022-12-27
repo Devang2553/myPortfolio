@@ -2,6 +2,7 @@ import React from 'react'
 import navigationBar from '../assets/navigationBar.png'
 import './portfolio.css'
 import * as ReactDOM from 'react-dom';
+// import Nav from '../project/Nav'
 
 const Portfolio = () => {
 const portfolios=[
@@ -45,7 +46,7 @@ const portfolios=[
             {
                 portfolios.map(({id,src})=> (
                     <div key={id} className='card-details'>
-                    <img src={src} alt="" className='navigationBar'/>
+                    <img src={src} alt="projects"  className='navigationBar'/>
                     <div className='card-btn'>
                         <button>Demo</button>
                         <button>Code</button>
