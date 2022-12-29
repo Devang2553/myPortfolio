@@ -2,7 +2,7 @@
   @apply  h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  ;
 
   & > .home-content {
-    @apply max-w-screen-lg  mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
+    @apply max-w-screen-lg  pt-44 md:pt-0 mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
 
     & > .home-left {
       @apply  flex flex-col justify-center h-full;
@@ -13,7 +13,7 @@
         @apply text-gray-500 py-4 max-w-md;
       }
       & div > .portfolio-btn {
-        @apply text-white w-fit  px-6 py-3 my-2 flex items-center  rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer;
+        @apply text-white w-fit  px-6 py-3 my-2 flex items-center   rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer;
 
         & > span {
           @apply hover:rotate-90 duration-300;
@@ -24,7 +24,7 @@
         @apply h-fit ;
     }
     & > div > .home-hero {
-      @apply rounded-2xl mx-auto  w-52      md:w-3/5  ; 
+      @apply rounded-2xl mx-auto  w-52      md:w-96  ; 
       /* image-problem */
     }
   }

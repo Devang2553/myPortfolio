@@ -1,8 +1,9 @@
 import React from 'react'
 import './socialLinks.css'
-import {FaGithub, FaLinkedin} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {ReactComponent as GitHub} from '../icons/GitHub.svg'
+import {ReactComponent as LinkDN} from '../icons/LinkDN.svg'
+import {ReactComponent as Mail} from '../icons/Mail.svg'
+import {ReactComponent as Resume} from '../icons/Resume.svg'
 
 const SocialLinks = () => {
     const links=[
@@ -10,7 +11,7 @@ const SocialLinks = () => {
             id: 1,
             child: (
               <>
-                LinkedIn <FaLinkedin size={30} />
+                LinkedIn <LinkDN size={30} className="fill-white "  />
               </>
             ),
             href: "https://linkedin.com",
@@ -20,7 +21,7 @@ const SocialLinks = () => {
             id: 2,
             child: (
               <>
-                GitHub <FaGithub size={30} />
+                GitHub <GitHub size={30} className="fill-white "  />
               </>
             ),
             href: "https://github.com/Devang2553",
@@ -29,7 +30,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
               <>
-                Mail <HiOutlineMail size={30} />
+                Mail <Mail size={30} className="fill-white"/>
               </>
             ),
             href: "mailto:devang@6314gmail.com",
@@ -38,7 +39,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
               <>
-                Resume <BsFillPersonLinesFill size={30} />
+                Resume <Resume size={30} className="fill-white"/>
               </>
             ),
            href: "/Resume.pdf",

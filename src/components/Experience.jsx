@@ -1,48 +1,48 @@
 import React from 'react'
 import './experience.css'
-import   html  from '../assets/html.svg';
-import   css  from '../assets/css.svg';
-import   js  from '../assets/js.svg';
-import   Node  from '../assets/Node.svg';
-import   react  from '../assets/react.svg';
-import   Tailwind  from '../assets/Tailwind.svg';
+import   {ReactComponent as Html}  from '../assets/Html.svg';
+import   {ReactComponent as Css}  from '../assets/CSS3.svg';
+import   {ReactComponent as Js}  from '../assets/js.svg';
+import   {ReactComponent as Node}  from '../assets/Node.svg';
+import   {ReactComponent as Rct}  from '../assets/react.svg';
+import   {ReactComponent as Tailwind}  from '../assets/Tailwind.svg';
 
 
 const Experience = () => {
     const techs =[
     {
         id:1,
-        src:html,
+        src:<Html className="work "/>,
         title: 'HTML',
         style: 'shadow-orange-500 '
     },
     {
         id:2,
-        src:css,
+        src:<Css className="work"/>,
         title: 'CSS',
         style: 'shadow-blue-500'
     },
     {
         id:3,
-        src:js,
+        src:<Js className="work"/>,
         title: 'JS',
         style: 'shadow-yellow-500'
     },
     {
         id:4,
-        src:Node,
+        src:<Node className="work"/>,
         title: 'Node',
         style: 'shadow-green-600'
     },
     {
         id:5,
-        src:react,
+        src:<Rct className="work"/>,
         title: 'react',
         style: 'shadow-blue-600'
     },
     {
         id:6,
-        src:Tailwind,
+        src:<Tailwind className="work"/>,
         title: 'Tailwind',
         style: 'shadow-sky-400'
     },
@@ -57,13 +57,18 @@ const Experience = () => {
             <div className='card-section'>
                 {
                     techs.map(({id,src,title,style})=>(
-                        <div key={id} className={"card"}>
-                    <img src={src} alt="work" className='work'  />
+                        <div key={id} className={"card "}>
 
+                                {src}
                     <p className='mt-4'>{title}</p>
                 </div>
+                
                     ))
                 }
+                {/* <div className='work'>
+                    svg
+                    <p className='mt-4'>work</p>
+                </div> */}
                 
             </div>
         </div>

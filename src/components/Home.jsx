@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/hero1.webp";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import {ReactComponent as PortF} from '../icons/PortF.svg'
 import "./home.css";
 const Home = () => {
   return (
@@ -19,8 +19,7 @@ const Home = () => {
             <button className=" portfolio-btn">
               Portfolio
               <span>
-                {" "}
-                <MdKeyboardArrowRight size={25} className="ml-1" />{" "}
+                <PortF   className="ml-1 fill-white" />
               </span>
             </button>
           </div>

@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {ReactComponent as FaBar} from '../icons/FaBar.svg'
+import {ReactComponent as CloseBar} from '../icons/CloseBar.svg'
 import "./navbar.css";
 
 const Navbar = () => {
@@ -40,7 +41,7 @@ const Navbar = () => {
       <div  className="nav-icon" 
       onClick={()=> setNav(!nav)}
       >
-        {nav ? <FaTimes size={30} /> :<FaBars size={30}/> }
+        {nav ? <CloseBar className="fill-gray-500 h-10 w-10" /> :<FaBar    className="fill-gray-500 h-10 w-8"/> }
       </div>
       {nav && (
         <ul className="mob-nav-list">
