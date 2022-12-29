@@ -1,8 +1,8 @@
 .home {
-  @apply  h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 ;
+  @apply  h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  ;
 
   & > .home-content {
-    @apply max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
+    @apply max-w-screen-lg  mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
 
     & > .home-left {
       @apply  flex flex-col justify-center h-full;
@@ -21,10 +21,10 @@
       }
     }
     & > div{
-        @apply h-fit;
+        @apply h-fit ;
     }
     & > div > .home-hero {
-      @apply rounded-2xl mx-auto  w-[200px]      md:w-3/5  ; 
+      @apply rounded-2xl mx-auto  w-52      md:w-3/5  ; 
       /* image-problem */
     }
   }
