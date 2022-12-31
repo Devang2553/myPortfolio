@@ -2,7 +2,7 @@
   @apply  h-screen w-full bg-gradient-to-b from-black via-black to-gray-800  ;
 
   & > .home-content {
-    @apply max-w-screen-lg  pt-44 md:pt-0 mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
+    @apply max-w-screen-lg  pt-12 md:pt-0 mx-auto flex flex-col  items-center justify-center h-full px-4 md:flex-row;
 
     & > .home-left {
       @apply  flex flex-col justify-center h-full;
@@ -24,7 +24,7 @@
         @apply h-fit ;
     }
     & > div > .home-hero {
-      @apply rounded-2xl mx-auto  w-52      md:w-96  ; 
+      @apply rounded-2xl mx-auto  w-72 h-96     md:w-96 md:h-full  ; 
       /* image-problem */
     }
   }
