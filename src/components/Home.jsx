@@ -24,9 +24,9 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div>
-          <img src={HeroImage} alt="my profile" height= "auto" width= "100%" className="home-hero" />
-        </div>
+        {/* <div>
+          <img src={HeroImage} alt="my profile"  className="home-hero" />
+        </div> */}
       </div>
     </div>
   );
