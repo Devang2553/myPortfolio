@@ -35,7 +35,7 @@ const portfolios=[
 ]
 
   return (
-    <div name="portfolio" className='portfolio'>
+    <div id="portfolio" className='portfolio'>
         <div className='all-data'>
             <div className='portfolio-heading'>
                 <p className='title'>Portfolio</p>

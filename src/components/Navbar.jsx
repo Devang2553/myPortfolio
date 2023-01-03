@@ -9,22 +9,27 @@ const Navbar = () => {
     {
       id: 1,
       link: "home",
+      herf: "#home",
     },
     {
       id: 2,
       link: "about",
+      herf: "#about",
     },
     {
       id: 3,
       link: "portfolio",
+      herf: "#portfolio",
     },
     {
       id: 4,
       link: "experience",
+      herf: "#experience",
     },
     {
       id: 5,
       link: "contact",
+      herf: "#contact",
     },
   ];
 
@@ -34,8 +39,8 @@ const Navbar = () => {
         <h1>Devang</h1>
       </div>
       <ul className="nav-list">
-        {links.map(({ id, link }) => (
-          <li key={id}>{link}</li>
+        {links.map(({ id, link,herf }) => (
+          <li key={id}><a href={herf}>{link}</a></li>
         ))}
       </ul>
       <div  className="nav-icon" 

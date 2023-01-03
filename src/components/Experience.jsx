@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import { memo } from 'react';
 import   {ReactComponent as Html}  from '../assets/Html.svg';
 import   {ReactComponent as Css}  from '../assets/CSS3.svg';
 import   {ReactComponent as Js}  from '../assets/js.svg';
@@ -42,7 +43,7 @@ const Experience = () => {
     },
     ]
   return (
-    <div name="experience" className='experience-card'>
+    <div id="experience" className='experience-card'>
         <div className='experience'>
             <div>
                 <p className='title'>Experience</p>
@@ -69,4 +70,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default memo(Experience);
