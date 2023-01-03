@@ -15,7 +15,7 @@ const About = () => {
             quae officia accusantium maiores excepturi voluptates
             at ea reprehenderit et nisi optio expedita laboriosam
             sit, totam dolores. Officia, sapiente illum?</p>
-            <br />
+            
             <p className='about-me2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Itaque atque ab harum vitae tempora quos nihil eveniet
             numquam repellat veritatis, facilis totam molestiae.

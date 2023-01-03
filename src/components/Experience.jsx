@@ -14,37 +14,31 @@ const Experience = () => {
         id:1,
         src:<Html className="work "/>,
         title: 'HTML',
-        style: 'shadow-orange-500 '
     },
     {
         id:2,
         src:<Css className="work"/>,
         title: 'CSS',
-        style: 'shadow-blue-500'
     },
     {
         id:3,
         src:<Js className="work"/>,
         title: 'JS',
-        style: 'shadow-yellow-500'
     },
     {
         id:4,
         src:<Node className="work"/>,
         title: 'Node',
-        style: 'shadow-green-600'
     },
     {
         id:5,
         src:<Rct className="work"/>,
         title: 'react',
-        style: 'shadow-blue-600'
     },
     {
         id:6,
         src:<Tailwind className="work"/>,
         title: 'Tailwind',
-        style: 'shadow-sky-400'
     },
     ]
   return (
@@ -56,9 +50,8 @@ const Experience = () => {
             </div>
             <div className='card-section'>
                 {
-                    techs.map(({id,src,title,style})=>(
-                        <div key={id} className={"card "}>
-
+                    techs.map(({id,src,title})=>(
+                        <div key={id} className="card">
                                 {src}
                     <p className='mt-4'>{title}</p>
                 </div>
