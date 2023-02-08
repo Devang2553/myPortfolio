@@ -41,6 +41,7 @@ const Experience = () => {
         src:<Tailwind className="work"/>,
         title: 'Tailwind',
     },
+   
     ]
   return (
     <div id="experience" className='experience-card'>

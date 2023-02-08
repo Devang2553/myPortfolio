@@ -50,8 +50,8 @@ const Navbar = () => {
       </div>
       {nav && (
         <ul className="mob-nav-list">
-             {links.map(({ id, link }) => (
-          <li key={id}>{link}</li>
+             {links.map(({ id, link, herf }) => (
+          <li key={id}><a href={herf}>{link}</a></li>
         ))}
         </ul>
       )}

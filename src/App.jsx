@@ -5,6 +5,7 @@ import SocialLinks from './components/SocialLinks'
 import About from './components/About'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Home />
       <SocialLinks />
       <About />
-      <Experience />
+      <Experience /> 
+      {/* <Portfolio /> */}
       <Contact/>
     </div>
   )

@@ -5,7 +5,7 @@ import { ReactComponent as PortF } from "../icons/PortF.svg";
 import "./home.css";
 const Home = () => {
   return (
-    <div name="home" className="home">
+    <div id="home" className="home">
       <div className="home-content">
         <div className="home-left">
           <h2>I'm FrontEnd Developer</h2>
