@@ -1,5 +1,5 @@
 .contact-page{
-    @apply  h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white p-4 ;
+    @apply  h-screen w-full bg-gradient-to-b from-black  to-gray-800 text-white p-4 ;
 
     &> .contact{
         @apply flex flex-col  p-4 justify-center max-w-screen-lg mx-auto h-full;

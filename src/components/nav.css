@@ -1,0 +1,9 @@
+.Aboutme{
+    @apply min-h-screen md:h-screen  pt-12  bg-gradient-to-b from-gray-800 to-black  text-white ;
+    
+     & div > .title{
+            @apply text-4xl font-bold border-b-4 w-fit border-gray-500 p-2 inline   gap-y-8 ;
+        
+    }
+    
+}
