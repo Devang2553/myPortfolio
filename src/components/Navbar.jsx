@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState} from "react"
 import {ReactComponent as FaBar} from '../icons/FaBar.svg'
 import {ReactComponent as CloseBar} from '../icons/CloseBar.svg'
 import "./navbar.css";
